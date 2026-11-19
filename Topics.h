@@ -1,10 +1,11 @@
-#ifndef TOPICS_N
-#define TOPICS_N
+#ifndef TOPICS_H
+#define TOPICS_H
 
 
 using namespace std;
 #include <iostream>
 #include <string>
+#include <vector>
 
 
 class topics{
@@ -13,10 +14,17 @@ class topics{
         void setTitle(string title);
         void setYearMade(int yearMade);
 
+        string getInfo();
+        int getYear();
+
     private:
-        string info;
-        string title;
-        int yearMade;
+        string info = "N/A";
+        string title = "N/A";
+        int yearMade = -1;
 };
+
+
+vector<topics> setTopics();
+
 
 #endif
