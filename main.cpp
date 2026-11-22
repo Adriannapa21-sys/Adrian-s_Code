@@ -34,19 +34,7 @@ int main() {
 
     InitWindow(700, 700, "Game");
     Texture2D settingBackground = LoadTexture("setting.png");
-    Texture2D settingTetris = LoadTexture("setting.png");
-    Texture2D settingAtari = LoadTexture("setting.png");
-    Texture2D settingSpaceInvaders = LoadTexture("setting.png");
-    Texture2D settingMagnavox_Odyssey = LoadTexture("setting.png");
-    Texture2D settingAtariPong = LoadTexture("setting.png");
-    Texture2D settingFGC = LoadTexture("setting.png");
-    Texture2D settingSpaceWars = LoadTexture("setting.png");
-    Texture2D settingTFT = LoadTexture("setting.png");
-    Texture2D settingOXO = LoadTexture("setting.png");
-    Texture2D settingSpasim = LoadTexture("setting.png");
-    Texture2D settingArcadeGame = LoadTexture("setting.png");
-    Texture2D settingMFCG = LoadTexture("setting.png");
-    
+
 
 
 
