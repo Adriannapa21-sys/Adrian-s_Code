@@ -13,14 +13,18 @@ class topics{
         void setInfo(string info);
         void setTitle(string title);
         void setYearMade(int yearMade);
+        void setImage(string image);
 
         string getInfo();
         int getYear();
+        string getTitle();
+        string getImage();
 
     private:
         string info = "N/A";
         string title = "N/A";
         int yearMade = -1;
+        string image = "N/A";
 };
 
 

@@ -23,5 +23,6 @@ add_executable(main
     main.cpp
     MainHelperList.cpp
     Topics.cpp
+    drawing.cpp
 )
 target_link_libraries(main PRIVATE raylib)

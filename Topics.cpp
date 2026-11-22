@@ -16,6 +16,11 @@ void topics::setYearMade(int topicYear){
     yearMade = topicYear;
 }
 
+void topics::setImage(string topicImage){
+    image = topicImage;
+
+}
+
 string topics::getInfo(){
     return info;
 }
@@ -23,6 +28,18 @@ string topics::getInfo(){
 int topics::getYear(){
     return yearMade;
 }
+
+string topics::getTitle(){
+    return title;
+}
+
+string topics::getImage(){
+    return image;
+}
+
+
+
+
 
 // this isnt apart of the class function definition, this is independent to making each object for the class
 vector<topics> setTopics(){
@@ -80,6 +97,20 @@ vector<topics> setTopics(){
     Spasim.setTitle("Spasim");
     ArcadeGame.setTitle("Arcade Games");
     MainFrameComputerGames.setTitle("MainFrame Computer Games");
+
+    Tetris.setImage("Tetris.png");
+    Atari.setImage("Atari.png");
+    Magnavox_Odyssey.setImage("MagnavoxOdyssey.png");
+    Space_Invaders.setImage("SpaceInvaders.png");
+    Atari_Pong.setImage("AtariPong.png");
+    First_Gaming_Consoles.setImage("FirstGamingConsoles.png");
+    SpaceWars.setImage("SpaceWars.png");
+    Tennis_For_Two.setImage("TennisForTwo.png");
+    OXO.setImage("OXO.png");
+    Spasim.setImage("Spasim.png");
+    ArcadeGame.setImage("ArcadeGames.png");
+    MainFrameComputerGames.setImage("MainFrameComputerGames.png");
+
 
     allTopics.push_back(Tetris); //index 0
     allTopics.push_back(Atari); //index 1
